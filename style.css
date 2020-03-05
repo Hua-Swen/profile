@@ -1,0 +1,91 @@
+body {
+  background: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+  color: rgba(0, 0, 0);
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 32px auto;
+  /*width: 540px;*/
+}
+.link-blue {
+  background-color: #0095B6;
+  color: #fcfcfc;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bolder;
+  margin: 16px auto;
+}
+
+.link-blue:hover {
+  background-color: rgba(0, 0, 0);
+  color: #fcfcfc;
+}
+
+.icon-square {
+  color: rgb(230, 230, 230);
+}
+
+.img-circle {
+  object-fit: cover;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+/*  background: url(blah.jpg) 50% 50% no-repeat;  50% 50% centers image in div
+  width: 250px;
+  height: 250px;*/
+
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.social-icon {
+  margin: 0px 16px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
